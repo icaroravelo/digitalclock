@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: linear-gradient(90deg, rgba(27,0,36,1) 14%, rgba(3,3,33,1) 100%, rgba(0,212,255,1) 100%);
+  color: #f1f1f1;
+  font-weigth: bold;
+  font-size: 60px;
+}
+
+/* Calendar */
+
+.calendar {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+  font-size: 45px;
+}
+
+/* #weekday,
+#fullday,
+#month {
+  background: red;
+} */
+
+/* Digital Watcher */
+
+#clock {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 500px;
+  margin: 100px auto;
+  gap: 25px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  border-radius: 20px;
+  height: 200px;
+}
